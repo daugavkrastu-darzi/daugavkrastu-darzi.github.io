@@ -1,0 +1,32 @@
+title: 'Biedrība "Daugavkrastu dārzi"'
+short_title: 'Daugavkrastu dārzi'
+description: 'Mazdārziņi Lucavsalā — kopiena, daba un darbs Rīgas sirdī.'
+lang: lv
+url: ''
+baseurl: ''
+permalink: pretty
+
+# The supplied logo is stored locally in the repository.
+logo: '/assets/images/logo-full.jpg'
+header_logo: '/assets/images/logo-wordmark.jpg'
+
+# Remove or set to an empty string after management approves the site.
+draft_banner: 'Jaunās tīmekļvietnes sākotnējā versija apskatei'
+
+# Create a Formspree form, then paste its endpoint here, for example:
+# formspree_endpoint: 'https://formspree.io/f/abcdwxyz'
+formspree_endpoint: ''
+
+collections:
+  news:
+    output: false
+
+exclude:
+  - README.md
+  - MIGRATION-CHECKLIST.md
+  - NEWS-POST-TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - preview
+  - source

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'lv' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#56372c">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.short_title }}</title>
+  <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Pāriet uz saturu</a>
+  {% include header.html %}
+  {% if site.draft_banner and site.draft_banner != '' %}
+    <div class="draft-banner" role="status">
+      <div class="shell">{{ site.draft_banner }}</div>
+    </div>
+  {% endif %}
+  <main id="main-content">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+</body>
+</html>

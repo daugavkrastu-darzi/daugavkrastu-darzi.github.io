@@ -1,0 +1,46 @@
+---
+layout: default
+title: Jaunumi
+nav: news
+---
+{% assign ordered_news = site.news | sort: 'date' | reverse %}
+<section class="page-hero page-hero-news">
+  <div class="shell narrow">
+    <p class="eyebrow">Aktualitātes</p>
+    <h1>Jaunumi</h1>
+    <p>Jaunākā informācija par biedrības darbiem, pasākumiem un Lucavsalas mazdārziņu dzīvi.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="shell news-feed">
+    {% for item in ordered_news %}
+    <article class="news-entry" id="{{ item.slug }}">
+      <header class="news-entry-header">
+        <p class="news-date">{{ item.date_label }}</p>
+        <h2>{{ item.title }}</h2>
+      </header>
+      <div class="rich-copy news-content">
+        {{ item.content }}
+      </div>
+      {% if item.images and item.images.size > 0 %}
+      <div class="post-image-grid{% if item.images.size == 1 %} single-image{% endif %}">
+        {% for image in item.images %}
+        {% if image.src contains '://' %}
+          {% assign image_src = image.src %}
+        {% else %}
+          {% assign image_src = image.src | relative_url %}
+        {% endif %}
+        <figure>
+          <a href="{{ image_src }}" target="_blank" rel="noopener">
+            <img src="{{ image_src }}" data-fallback="{{ '/assets/images/photo-placeholder.svg' | relative_url }}" onerror="this.onerror=null;this.src=this.dataset.fallback" alt="{{ image.alt }}" loading="lazy">
+          </a>
+          {% if image.caption %}<figcaption>{{ image.caption }}</figcaption>{% endif %}
+        </figure>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <a class="back-to-top" href="#main-content">Atpakaļ uz augšu ↑</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>

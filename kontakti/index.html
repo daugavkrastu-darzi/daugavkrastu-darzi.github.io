@@ -1,0 +1,78 @@
+---
+layout: default
+title: Kontakti
+nav: contact
+---
+<section class="page-hero page-hero-contact">
+  <div class="shell narrow">
+    <p class="eyebrow">Sazinieties ar mums</p>
+    <h1>Kontakti</h1>
+    <p>Jautājumiem par biedrību un Lucavsalas mazdārziņiem sazinieties ar kādu no biedrības pārstāvjiem.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="shell contact-layout">
+    <div>
+      <div class="section-heading">
+        <p class="eyebrow">Biedrības pārstāvji</p>
+        <h2>Tālruņi</h2>
+      </div>
+      <div class="contact-list">
+        <article class="contact-card">
+          <h3>Aija Žvīgule</h3>
+          <p>Biedrības dibinātāja, galvenā pārvaldniece</p>
+          <a href="tel:+37129839163">+371 29 839 163</a>
+        </article>
+        <article class="contact-card">
+          <h3>Regnārs Cīrulis</h3>
+          <p>Biedrības dibinātājs</p>
+          <a href="tel:+37129956760">+371 29 956 760</a>
+        </article>
+        <article class="contact-card">
+          <h3>Kristīne Cīrule Miņjuka</h3>
+          <p>Valdes priekšsēdētāja</p>
+          <a href="tel:+37129590811">+371 29 590 811</a>
+        </article>
+        <article class="contact-card">
+          <h3>Anda Sīpola</h3>
+          <p>Valdes locekle</p>
+          <a href="tel:+37129167538">+371 29 167 538</a>
+        </article>
+      </div>
+    </div>
+    <div class="form-panel">
+      <p class="eyebrow">Rakstiet mums</p>
+      <h2>Kontaktu forma</h2>
+      <p>Norādiet savu vārdu, e-pasta adresi un jautājumu.</p>
+      {% if site.formspree_endpoint and site.formspree_endpoint != '' %}
+      <form class="contact-form" action="{{ site.formspree_endpoint }}" method="post">
+        <input type="hidden" name="_subject" value="Ziņa no Daugavkrastu dārzu tīmekļvietnes">
+        <label for="name">Vārds <span aria-hidden="true">*</span></label>
+        <input id="name" name="Vārds" type="text" autocomplete="name" required>
+        <label for="garden-number">Dārza Nr.</label>
+        <input id="garden-number" name="Dārza numurs" type="text" inputmode="numeric">
+        <label for="email">E-pasts <span aria-hidden="true">*</span></label>
+        <input id="email" name="E-pasts" type="email" autocomplete="email" required>
+        <label for="message">Ziņojums <span aria-hidden="true">*</span></label>
+        <textarea id="message" name="Ziņojums" rows="7" required></textarea>
+        <input class="honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="button button-primary" type="submit">Nosūtīt ziņu</button>
+        <p class="form-note">Nosūtot formu, jūs piekrītat, ka biedrība izmanto norādīto informāciju atbildes sniegšanai.</p>
+      </form>
+      {% else %}
+      <div class="setup-note">Forma vēl nav aktivizēta. Pirms publicēšanas izveidojiet bezmaksas Formspree formu un ievietojiet tās adresi failā <code>_config.yml</code>.</div>
+      <form class="contact-form" aria-disabled="true" onsubmit="return false">
+        <label for="name-preview">Vārds</label>
+        <input id="name-preview" type="text" disabled>
+        <label for="garden-preview">Dārza Nr.</label>
+        <input id="garden-preview" type="text" disabled>
+        <label for="email-preview">E-pasts</label>
+        <input id="email-preview" type="email" disabled>
+        <label for="message-preview">Ziņojums</label>
+        <textarea id="message-preview" rows="7" disabled></textarea>
+        <button class="button button-primary" type="button" disabled>Nosūtīt ziņu</button>
+      </form>
+      {% endif %}
+    </div>
+  </div>
+</section>
