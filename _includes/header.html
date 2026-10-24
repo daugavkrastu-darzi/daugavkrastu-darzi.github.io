@@ -24,7 +24,6 @@
     <nav id="primary-navigation" class="primary-nav" aria-label="Galvenā izvēlne">
       <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Sākums</a>
       <a href="{{ '/jaunumi/' | relative_url }}"{% if page.nav == 'news' %} aria-current="page"{% endif %}>Jaunumi</a>
-      <a href="{{ '/galerija/' | relative_url }}"{% if page.nav == 'gallery' %} aria-current="page"{% endif %}>Galerija</a>
       <a href="{{ '/par-mums/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>Par mums</a>
       <a class="nav-contact" href="{{ '/kontakti/' | relative_url }}"{% if page.nav == 'contact' %} aria-current="page"{% endif %}>Kontakti</a>
     </nav>
