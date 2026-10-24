@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-<title id="title">Fotogrāfijas vietturis</title><desc id="desc">Dekoratīvs zaļš fons ar lapu siluetiem</desc>
-<rect width="1200" height="800" fill="#e6ece2"/>
-<circle cx="1010" cy="80" r="260" fill="#cbd9c7"/>
-<circle cx="130" cy="770" r="300" fill="#d9c7a9" opacity=".65"/>
-<path d="M313 561c179 26 357-83 430-286-195 9-373 114-430 286Z" fill="#78947e"/>
-<path d="M347 605c112-171 239-267 376-315" fill="none" stroke="#173c2b" stroke-width="24" stroke-linecap="round"/>
-<text x="600" y="710" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#173c2b">Daugavkrastu dārzi</text>
-</svg>

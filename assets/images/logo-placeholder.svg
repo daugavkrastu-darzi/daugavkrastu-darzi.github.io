@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-<title id="title">Daugavkrastu dārzi</title><desc id="desc">Pagaidu logotipa vietturis ar lapas simbolu</desc>
-<rect width="512" height="512" rx="256" fill="#fefaee"/>
-<circle cx="256" cy="256" r="218" fill="none" stroke="#56372c" stroke-width="18"/>
-<path d="M160 312c84 10 166-42 196-140-92 4-173 55-196 140Z" fill="#729d46"/>
-<path d="M173 328c49-77 107-120 170-143" fill="none" stroke="#56372c" stroke-width="15" stroke-linecap="round"/>
-<text x="256" y="405" text-anchor="middle" font-family="Georgia,serif" font-size="68" font-weight="700" fill="#56372c">DD</text>
-</svg>
