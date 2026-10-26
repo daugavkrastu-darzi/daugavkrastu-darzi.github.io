@@ -10,12 +10,9 @@ permalink: pretty
 logo: '/assets/images/logo-full.jpg'
 header_logo: '/assets/images/logo-wordmark.jpg'
 
-# Remove or set to an empty string after management approves the site.
-draft_banner: 'Jaunās tīmekļvietnes sākotnējā versija apskatei'
+contact_email: 'kristaps.vilerts@hotmail.com'
 
-# Create a Formspree form, then paste its endpoint here, for example:
-# formspree_endpoint: 'https://formspree.io/f/abcdwxyz'
-formspree_endpoint: ''
+draft_banner: 'Jaunās tīmekļvietnes sākotnējā versija apskatei'
 
 collections:
   news:

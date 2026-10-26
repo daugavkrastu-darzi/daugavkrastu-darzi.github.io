@@ -13,19 +13,17 @@
         onerror="this.onerror=null;this.src=this.dataset.fallback"
         alt="Daugavkrastu dārzi">
     </a>
-
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
       <span class="sr-only">Atvērt izvēlni</span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </button>
-
     <nav id="primary-navigation" class="primary-nav" aria-label="Galvenā izvēlne">
       <a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Sākums</a>
       <a href="{{ '/jaunumi/' | relative_url }}"{% if page.nav == 'news' %} aria-current="page"{% endif %}>Jaunumi</a>
       <a href="{{ '/par-mums/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>Par mums</a>
-      <a class="nav-contact" href="{{ '/kontakti/' | relative_url }}"{% if page.nav == 'contact' %} aria-current="page"{% endif %}>Kontakti</a>
+      <a href="{{ '/kontakti/' | relative_url }}"{% if page.nav == 'contact' %} aria-current="page"{% endif %}>Kontakti</a>
     </nav>
   </div>
 </header>

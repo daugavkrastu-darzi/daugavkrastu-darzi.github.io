@@ -42,37 +42,18 @@ nav: contact
     </div>
     <div class="form-panel">
       <p class="eyebrow">Rakstiet mums</p>
-      <h2>Kontaktu forma</h2>
-      <p>Norādiet savu vārdu, e-pasta adresi un jautājumu.</p>
-      {% if site.formspree_endpoint and site.formspree_endpoint != '' %}
-      <form class="contact-form" action="{{ site.formspree_endpoint }}" method="post">
-        <input type="hidden" name="_subject" value="Ziņa no Daugavkrastu dārzu tīmekļvietnes">
-        <label for="name">Vārds <span aria-hidden="true">*</span></label>
-        <input id="name" name="Vārds" type="text" autocomplete="name" required>
-        <label for="garden-number">Dārza Nr.</label>
-        <input id="garden-number" name="Dārza numurs" type="text" inputmode="numeric">
-        <label for="email">E-pasts <span aria-hidden="true">*</span></label>
-        <input id="email" name="E-pasts" type="email" autocomplete="email" required>
-        <label for="message">Ziņojums <span aria-hidden="true">*</span></label>
-        <textarea id="message" name="Ziņojums" rows="7" required></textarea>
-        <input class="honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <button class="button button-primary" type="submit">Nosūtīt ziņu</button>
-        <p class="form-note">Nosūtot formu, jūs piekrītat, ka biedrība izmanto norādīto informāciju atbildes sniegšanai.</p>
-      </form>
-      {% else %}
-      <div class="setup-note">Forma vēl nav aktivizēta. Pirms publicēšanas izveidojiet bezmaksas Formspree formu un ievietojiet tās adresi failā <code>_config.yml</code>.</div>
-      <form class="contact-form" aria-disabled="true" onsubmit="return false">
-        <label for="name-preview">Vārds</label>
-        <input id="name-preview" type="text" disabled>
-        <label for="garden-preview">Dārza Nr.</label>
-        <input id="garden-preview" type="text" disabled>
-        <label for="email-preview">E-pasts</label>
-        <input id="email-preview" type="email" disabled>
-        <label for="message-preview">Ziņojums</label>
-        <textarea id="message-preview" rows="7" disabled></textarea>
-        <button class="button button-primary" type="button" disabled>Nosūtīt ziņu</button>
-      </form>
-      {% endif %}
+      <h2>Sazinieties e-pastā</h2>
+      <p>Jautājumu vai ziņu varat nosūtīt uz biedrības e-pasta adresi.</p>
+      <p class="contact-email">
+        <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+      </p>
+      <a
+        class="button button-primary"
+        href="mailto:{{ site.contact_email }}?subject=Jautājums%20biedrībai%20Daugavkrastu%20dārzi"
+      >
+        Rakstīt e-pastu
+      </a>
+      <p class="form-note">Nospiežot pogu, ziņa tiks atvērta jūsu e-pasta lietotnē. Varat arī nokopēt augstāk norādīto adresi.</p>
     </div>
   </div>
 </section>

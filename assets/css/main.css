@@ -114,18 +114,6 @@ p { margin-top: 0; }
 .primary-nav a[aria-current="page"] { color: var(--green-dark); }
 .primary-nav a:hover::after,
 .primary-nav a[aria-current="page"]::after { transform: scaleX(1); }
-.primary-nav .nav-contact {
-  padding: 10px 16px;
-  color: var(--white);
-  background: var(--green-dark);
-  border-radius: 8px;
-}
-.primary-nav .nav-contact::after { display: none; }
-.primary-nav .nav-contact:hover,
-.primary-nav .nav-contact[aria-current="page"] {
-  color: var(--white);
-  background: var(--ink);
-}
 .nav-toggle {
   display: none;
   width: 44px;
@@ -278,10 +266,6 @@ h3 {
 
 .section { padding: 82px 0; }
 .section-soft { background: var(--cream-deep); }
-.section-links {
-  padding-top: 0;
-  background: var(--paper);
-}
 .section-heading { margin-bottom: 32px; }
 .heading-split {
   display: flex;
@@ -350,41 +334,6 @@ h3 {
   font-size: 1.06rem;
 }
 .rich-copy p { margin-bottom: 1.12em; }
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-.feature-card {
-  position: relative;
-  min-height: 275px;
-  padding: 30px 32px 34px;
-  border-top: 4px solid var(--green);
-  text-decoration: none;
-  transition: background-color 160ms ease;
-}
-.feature-card + .feature-card { border-left: 1px solid var(--line); }
-.feature-card:nth-child(2) { border-top-color: var(--carrot); }
-.feature-card:nth-child(3) { border-top-color: var(--aubergine); }
-.feature-card:hover { background: var(--cream); }
-.feature-card h2 { font-size: 2rem; }
-.feature-card p { max-width: 30ch; color: var(--muted); }
-.feature-number {
-  display: inline-block;
-  margin-bottom: 34px;
-  color: var(--green-dark);
-  font-size: 0.8rem;
-  font-weight: 850;
-  letter-spacing: 0.1em;
-}
-.feature-arrow {
-  position: absolute;
-  right: 30px;
-  bottom: 28px;
-  color: var(--ink);
-  font-size: 1.45rem;
-}
 .cta-panel {
   display: flex;
   align-items: center;
@@ -483,7 +432,6 @@ h3 {
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.72);
 }
-
 .about-layout {
   display: grid;
   grid-template-columns: 1.25fr 0.75fr;
@@ -555,45 +503,21 @@ h3 {
   background: var(--cream);
 }
 .form-panel h2 { font-size: 2.3rem; }
-.contact-form {
-  display: grid;
-  gap: 8px;
-  margin-top: 22px;
+.contact-email {
+  margin: 1.4rem 0 1.6rem;
+  overflow-wrap: anywhere;
 }
-.contact-form label {
-  margin-top: 8px;
-  color: var(--ink);
+.contact-email a {
+  color: var(--green-dark);
+  font-size: 1.15rem;
   font-weight: 800;
+  text-underline-offset: 4px;
 }
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 12px 13px;
-  color: var(--ink);
-  border: 1px solid var(--line-strong);
-  border-radius: 6px;
-  background: var(--white);
-}
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: 3px solid rgba(114, 157, 70, 0.25);
-  border-color: var(--green-dark);
-}
-.contact-form input:disabled,
-.contact-form textarea:disabled { background: #f5f0e5; }
-.contact-form textarea { resize: vertical; }
-.contact-form .button {
-  justify-self: start;
-  margin-top: 14px;
-}
+.contact-email a:hover { color: var(--ink); }
 .form-note {
   margin-top: 9px;
   color: var(--muted);
   font-size: 0.78rem;
-}
-.honeypot {
-  position: absolute !important;
-  left: -9999px !important;
 }
 
 .site-footer {
@@ -669,7 +593,6 @@ h3 {
     text-align: center;
   }
   .primary-nav a::after { display: none; }
-  .primary-nav .nav-contact { margin-top: 6px; }
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 44px;
@@ -684,7 +607,6 @@ h3 {
     grid-template-columns: 1fr;
     gap: 42px;
   }
-  .feature-card { padding-inline: 25px; }
   .facts-card { position: static; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-grid > div:first-child { grid-column: 1 / -1; }
@@ -699,7 +621,6 @@ h3 {
   .hero h1 { font-size: clamp(2.7rem, 14vw, 4rem); }
   .hero-logo { max-width: 520px; }
   .section { padding: 64px 0; }
-  .section-links { padding-top: 0; }
   .heading-split,
   .cta-panel,
   .footer-bottom {
@@ -710,16 +631,6 @@ h3 {
   .news-card:last-child { grid-column: auto; }
   .news-card-body { padding: 24px; }
   .intro-grid { gap: 26px; }
-  .feature-grid { grid-template-columns: 1fr; }
-  .feature-card {
-    min-height: 220px;
-    padding: 26px 24px 30px;
-  }
-  .feature-card + .feature-card {
-    border-top-width: 4px;
-    border-left: 0;
-  }
-  .feature-number { margin-bottom: 24px; }
   .cta-panel { padding: 30px 24px; }
   .page-hero { padding: 54px 0 58px; }
   .page-hero h1 { font-size: clamp(2.7rem, 14vw, 4rem); }
@@ -729,6 +640,7 @@ h3 {
   }
   .post-image-grid { grid-template-columns: 1fr; }
   .form-panel { padding: 27px 20px; }
+  .contact-email a { font-size: 1.05rem; }
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 28px;
