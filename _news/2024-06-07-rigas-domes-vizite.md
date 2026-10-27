@@ -2,7 +2,7 @@
 title: 'Pie mums viesojās Vilnis Ķirsis un Rīgas domes pārstāvji'
 date: 2024-06-07
 date_label: '2024. gada 7. jūnijs'
-slug: 'rigas-domes-vizite'
+slug: '2024-rigas-domes-vizite'
 summary: 'Vizītes laikā tika pārrunāta Lucavsalas mazdārziņu nākotne un teritorijas attīstība.'
 images:
   - src: '/assets/images/news/2024-06-07-rigas-domes-vizite-01.jpg'

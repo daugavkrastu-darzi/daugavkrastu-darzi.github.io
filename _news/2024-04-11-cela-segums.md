@@ -2,7 +2,7 @@
 title: 'Ceļa seguma uzlabojumi Drosmīgo un Sprīdīšu takā'
 date: 2024-04-11
 date_label: '2024. gada 11. aprīlis'
-slug: 'cela-seguma-uzlabojumi'
+slug: '2024-cela-seguma-uzlabojumi'
 summary: 'Aprīļa sākumā uzlabots ceļa segums, lai atvieglotu piekļuvi dārziem.'
 images:
   - src: '/assets/images/news/2024-04-11-cela-segums-01.jpg'
