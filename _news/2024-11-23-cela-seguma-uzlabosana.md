@@ -5,11 +5,11 @@ date_label: '2024. gada 23. novembris'
 slug: '2024-cela-seguma-uzlabosana'
 summary: 'Kopīgiem spēkiem Lucavsala kļūst zaļāka un sakoptāka'
 images:
-  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-01.jpeg'
-  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-02.jpeg'
-  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-03.jpeg'
-  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-04.jpeg'
-  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-05.jpeg'
+  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-01.jpg'
+  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-02.jpg'
+  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-03.jpg'
+  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-04.jpg'
+  - src: '/assets/images/news/2024-11-23-cela-seguma-uzlabosana-05.jpg'
 ---
 Ir noslēgusies 2024.gada sezona.
 
