@@ -11,7 +11,6 @@ images:
   - src: '/assets/images/news/2024-04-30-aijas-darza-tulpes-04.jpg'
   - src: '/assets/images/news/2024-04-30-aijas-darza-tulpes-05.jpg'
   - src: '/assets/images/news/2024-04-30-aijas-darza-tulpes-06.jpg'
-  - src: '/assets/images/news/2024-04-30-aijas-darza-tulpes-07.jpg'
 ---
 Šodien nevarēju vien nobrīnīties,kas par īpašām un skaistām tulpēm priecē garāmgājējus aiz sētas mūsu Aijas dārzā! 🤩🤩🤩
 

@@ -1,7 +1,7 @@
 ---
 title: 'Lieldienas'
 date: 2025-04-20
-date_label: '2025. gada 20. aprīlis
+date_label: '2025. gada 20. aprīlis'
 slug: '2025-lieldienas'
 summary: 'Lieldienas'
 images:

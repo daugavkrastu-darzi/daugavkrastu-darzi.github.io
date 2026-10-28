@@ -1,7 +1,7 @@
 ---
 title: 'Bērnu makšķerēšanas sacensības'
 date: 2025-05-31
-date_label: '2025. gada 31. maijs
+date_label: '2025. gada 31. maijs'
 slug: '2025-makskresana-berniem'
 summary: 'Bērnu makšķerēšanas sacensības saliedē biedrības kopienu'
 images:
