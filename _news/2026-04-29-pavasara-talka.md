@@ -18,3 +18,5 @@ Kopumā tika izvesti ap 300 maisi ar visa veida atkritumiem. Tonna ar šīferi u
 Mēs katru gadu strādājam,lai padarītu šo,sev tik mīļo,daļu Rīgas sakoptāku un zaļāku! 💚
 
 Lai visiem skaista,silta,ražīga sezona!💚
+
+Foto: biedrības arhīvs

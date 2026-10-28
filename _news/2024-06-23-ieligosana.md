@@ -11,3 +11,5 @@ images:
   - src: '/assets/images/news/2024-06-23-ieligosana-04.jpeg'
   - src: '/assets/images/news/2024-06-23-ieligosana-05.jpeg'
 ---
+
+Foto: biedrības arhīvs

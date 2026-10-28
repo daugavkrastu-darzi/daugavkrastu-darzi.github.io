@@ -17,3 +17,5 @@ images:
 Visslielākā talka - ar teju 1000 atkritumu maisiem. Tika atbrīvota teritorija no lielgabarīta, stikla un citiem sadzīves atkritumiem. 
 
 Liels paldies Rīgas domei par sadarbību!
+
+Foto: biedrības arhīvs

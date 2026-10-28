@@ -6,10 +6,10 @@ slug: '2024-cela-seguma-uzlabojumi'
 summary: 'Aprīļa sākumā uzlabots ceļa segums, lai atvieglotu piekļuvi dārziem.'
 images:
   - src: '/assets/images/news/2024-04-11-cela-segums-01.jpg'
-    alt: 'Ceļa seguma uzlabošanas darbi'
   - src: '/assets/images/news/2024-04-11-cela-segums-02.jpg'
-    alt: 'Atjaunotais ceļa segums pie dārziem'
 ---
 Aprīļa sākumā tika veikti ceļa seguma uzlabojumi Drosmīgo un Sprīdīšu takā, lai atvieglotu piekļuvi mūsu dārziem.
 
 Paldies visiem, kuri ieradās palīdzēt.
+
+Foto: biedrības arhīvs

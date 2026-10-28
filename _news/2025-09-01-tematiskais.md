@@ -8,3 +8,5 @@ images:
   - src: '/assets/images/news/2025-09-01-tematiskais-01.jpeg'
   - src: '/assets/images/news/2025-09-01-tematiskais-02.jpeg'
 ---
+
+Foto: biedrības arhīvs

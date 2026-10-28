@@ -8,3 +8,5 @@ images:
   - src: '/assets/images/news/2024-09-01-intervija-01.jpeg'
   - src: '/assets/images/news/2024-09-01-intervija-02.jpeg'
 ---
+
+Foto: biedrības arhīvs

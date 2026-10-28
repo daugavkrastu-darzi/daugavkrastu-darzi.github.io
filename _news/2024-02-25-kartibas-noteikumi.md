@@ -6,8 +6,8 @@ slug: '2024-kartibas-noteikumi'
 summary: 'Publicēti biedrības “Daugavkrastu dārzi” iekšējās kārtības noteikumi.'
 images:
   - src: '/assets/images/news/2024-02-25-kartibas-noteikumi-01.jpg'
-    alt: 'Biedrības iekšējās kārtības noteikumi, pirmā lapa'
   - src: '/assets/images/news/2024-02-25-kartibas-noteikumi-02.jpg'
-    alt: 'Biedrības iekšējās kārtības noteikumi, otrā lapa'
 ---
 Publicējam biedrības “Daugavkrastu dārzi” iekšējās kārtības noteikumus. Ar noteikumiem iespējams iepazīties pievienotajos attēlos.
+
+Foto: biedrības arhīvs
