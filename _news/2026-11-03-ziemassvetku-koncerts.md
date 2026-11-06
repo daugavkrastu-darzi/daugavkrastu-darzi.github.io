@@ -4,6 +4,8 @@ date: 2026-11-03
 date_label: '2026. gada 3.novembris'
 slug: '2026-ziemassvetku-koncerts'
 summary: 'Ziemassvētku koncerts'
+images:
+  - src: '/assets/images/news/2026-11-03-ziemassvetku-koncerts-01.jpeg'
 ---
 🎄 **Ziemassvētku koncerts dārzkopjiem**
 

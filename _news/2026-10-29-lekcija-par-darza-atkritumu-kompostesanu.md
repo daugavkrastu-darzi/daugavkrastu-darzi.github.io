@@ -4,6 +4,8 @@ date: 2026-10-29
 date_label: '2026. gada 29.oktobris'
 slug: '2026-lekcija-par-darza-atkritumu-kompostesanu'
 summary: 'Lekcija par kompostēšanu un komposta izmantošanu.'
+images:
+  - src: '/assets/images/news/2026-10-29-lekcija-par-darza-atkritumu-kompostesanu-01.jpeg'
 ---
 
 ### 🌱 Mācīsimies pareizi kompostēt dārza atkritumus!
@@ -13,5 +15,14 @@ summary: 'Lekcija par kompostēšanu un komposta izmantošanu.'
 Lekciju vadīs biedrības **„Zero Waste Latvija”** eksperte **Zane Kopštāle**. Tajā uzzināsim, kā pareizi izveidot komposta kasti, kā kompostēt dārza atkritumus un kā iegūt vērtīgu kompostu, ko izmantot dobēs.
 
 Uz lekciju aicināti Rīgas dārzkopības biedrību pārstāvji.
+Aicinām ikvienu interesentu uz informatīvu meistarklasi!
+
+Vieta : E. Smiļģa ielā 46 (NVO nams), lielajā zālē (nr.110, pirmajā stāvā).
+
+Dienas plāns:
+- 13:00 - 14:00 reģistrēšanās
+- 14:00 - 15:00 lekcijas I daļa
+- 15:00 - 15:15 kafijas pauze
+- 15:15 - 16:15 lekcijas II daļa
 
 Iegūsim noderīgas zināšanas, lai saimniekotu videi draudzīgāk un izmantotu dabas resursus gudrāk! 💚
