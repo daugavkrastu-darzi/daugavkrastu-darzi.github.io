@@ -67,10 +67,7 @@ FOOTER = r'''
 def render_page(title: str, nav: str, content: str) -> str:
     header = ENV.from_string(HEADER).render(nav=nav, header_logo=config['header_logo'])
     footer = FOOTER
-    draft = ''
-    if config.get('draft_banner'):
-        draft = f'<div class="draft-banner" role="status"><div class="shell">{html.escape(config["draft_banner"])}</div></div>'
-    return f'''<!doctype html><html lang="lv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#56372c"><title>{html.escape(title)} · Daugavkrastu dārzi</title><link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/main.css"></head><body><a class="skip-link" href="#main-content">Pāriet uz saturu</a>{header}{draft}<main id="main-content">{content}</main>{footer}<script src="/assets/js/main.js" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="lv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#56372c"><title>{html.escape(title)} · Daugavkrastu dārzi</title><link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/main.css"></head><body><a class="skip-link" href="#main-content">Pāriet uz saturu</a>{header}<main id="main-content">{content}</main>{footer}<script src="/assets/js/main.js" defer></script></body></html>'''
 
 
 def image_tag(src: str, alt: str = '', *, loading: bool = True) -> str:

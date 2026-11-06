@@ -130,15 +130,6 @@ p { margin-top: 0; }
   border-radius: 2px;
   background: var(--ink);
 }
-.draft-banner {
-  color: var(--ink-deep);
-  background: #f2d8a9;
-  border-bottom: 1px solid rgba(86, 55, 44, 0.12);
-  font-size: 0.84rem;
-  font-weight: 750;
-  text-align: center;
-}
-.draft-banner .shell { padding-block: 6px; }
 
 .hero {
   position: relative;
@@ -654,4 +645,16 @@ h3 {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+.top-lane {
+  height: 5px;
+  background: linear-gradient(
+    90deg,
+    var(--green-dark) 0 20%,
+    var(--leaf) 20% 40%,
+    var(--carrot) 40% 60%,
+    var(--tomato) 60% 80%,
+    var(--aubergine) 80% 100%
+  );
 }

@@ -13,11 +13,7 @@
 <body>
   <a class="skip-link" href="#main-content">Pāriet uz saturu</a>
   {% include header.html %}
-  {% if site.draft_banner and site.draft_banner != '' %}
-    <div class="draft-banner" role="status">
-      <div class="shell">{{ site.draft_banner }}</div>
-    </div>
-  {% endif %}
+  <div class="top-lane"></div>
   <main id="main-content">
     {{ content }}
   </main>

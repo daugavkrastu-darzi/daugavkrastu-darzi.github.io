@@ -12,8 +12,6 @@ header_logo: '/assets/images/logo-wordmark.jpg'
 
 contact_email: 'daugavkrastu.darzi@gmail.com'
 
-draft_banner: 'Jaunās tīmekļvietnes sākotnējā versija apskatei'
-
 collections:
   news:
     output: false
