@@ -1,5 +1,5 @@
 ---
-title: 'Lekcija par  kompostēšanu un komposta izmantošanu.'
+title: 'Lekcija par kompostēšanu un komposta izmantošanu.'
 date: 2026-10-29
 date_label: '2026. gada 29.oktobris'
 slug: '2026-lekcija-par-darza-atkritumu-kompostesanu'
