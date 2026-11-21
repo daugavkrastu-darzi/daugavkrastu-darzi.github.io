@@ -6,9 +6,31 @@
   <meta name="theme-color" content="#56372c">
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <meta name="format-detection" content="telephone=no">
+  {% unless page.url == '/404.html' %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endunless %}
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.short_title }}</title>
   <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% if page.nav == 'home' or page.nav == 'contact' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Biedrība Daugavkrastu dārzi",
+    "url": "https://www.mazdarzini.lv/",
+    "logo": "https://www.mazdarzini.lv/assets/images/logo-full.jpg",
+    "email": "daugavkrastu.darzi@gmail.com",
+    "taxID": "40008244382",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Tālavas gatve 3-10",
+      "addressLocality": "Rīga",
+      "postalCode": "LV-1029",
+      "addressCountry": "LV"
+    }
+  }
+  </script>
+  {% endif %}
 </head>
 <body>
   <a class="skip-link" href="#main-content">Pāriet uz saturu</a>
